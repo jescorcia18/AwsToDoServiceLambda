@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.TodoServive.Lambda", "AWS.TodoServive.Lambda.csproj", "{D090B4A2-1F93-461E-B8F6-B5FCC369D390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.AprovalService.Lambda", "..\..\AprovalServices\AWS.AprovalService.Lambda\AWS.AprovalService.Lambda.csproj", "{286DC6F9-5E42-4ACA-BC60-07F31D05B389}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D090B4A2-1F93-461E-B8F6-B5FCC369D390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D090B4A2-1F93-461E-B8F6-B5FCC369D390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D090B4A2-1F93-461E-B8F6-B5FCC369D390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D090B4A2-1F93-461E-B8F6-B5FCC369D390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286DC6F9-5E42-4ACA-BC60-07F31D05B389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286DC6F9-5E42-4ACA-BC60-07F31D05B389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286DC6F9-5E42-4ACA-BC60-07F31D05B389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286DC6F9-5E42-4ACA-BC60-07F31D05B389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
